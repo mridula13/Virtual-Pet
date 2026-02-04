@@ -13,10 +13,7 @@ var Name = "";
 function preload() {
   dogImg = loadImage("Dog.png");
   milkImg = loadImage("Milk.png");
-  happyDogImg = loadImage("happy dog.png");
-  garden = loadImage("Garden.png");
-  washroom = loadImage("Wash Room.png");
-  bedroom = loadImage("Bed Room.png");
+  happyDogImg = loadImage("happy_dog.png");
 }
 
 
@@ -121,9 +118,10 @@ function addFoods()
 {
   foodS++;
   database.ref('/').update({
-    Food:foodS
+    Food:foodS;
   })
 
 }
+
 
 
