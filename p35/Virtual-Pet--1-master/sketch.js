@@ -8,12 +8,12 @@ var foodObj;
 var milkImg, milk;
 var name;
 
-function preload()
-{
-  sadDog = loadImage("p35/Virtual-Pet--1-master/Dog.png");
+function preload() {
+  dogImg = loadImage("p35/Virtual-Pet--1-master/Dog.png");
   milkImg = loadImage("p35/Virtual-Pet--1-master/Milk.png");
-  happyDog = loadImage("p35/Virtual-Pet--1-master/happy dog.png");
+  happyDogImg = loadImage("p35/Virtual-Pet--1-master/happy dog.png");
 }
+
 
 function setup() 
 {
@@ -104,4 +104,5 @@ function addFoods()
   })
 
 }
+
 
