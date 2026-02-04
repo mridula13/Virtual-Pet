@@ -116,12 +116,13 @@ function feedDog()
 
 function addFoods()
 {
-  foodS++;
+  foodS = foodObj.getFoodStock() + 1;
   database.ref('/').update({
-    Food:foodS;
+    Food:foodS
   })
 
 }
+
 
 
 
